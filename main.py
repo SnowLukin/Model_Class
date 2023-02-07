@@ -1,3 +1,9 @@
 from Lab1.LinearFunction import Lab1
 
-Lab1().plot_all_results()
+
+def start_lab1():
+    lab1 = Lab1()
+    lab1.compare_mse()
+    lab1.compare_mae()
+    lab1.plot_all_results()
+
